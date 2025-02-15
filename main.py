@@ -62,8 +62,7 @@ class GeminiAPI:
     
 
    
-# app= Flask(__name__)
-# @app.route("/")
+
 def main(sp):
     api_key = "AIzaSyCimOOgJwHxrml6DJg7-oY8NkNKnWVRnog"
     gemini = GeminiAPI(api_key)
@@ -74,9 +73,7 @@ def main(sp):
 
 if __name__ == "__main__":
     speak("Command ME Pratyush..")
-    # app.run(debug = True)
-    #listen to wake word poppy
-
+    
     while True:
         r = sr.Recognizer()
 
