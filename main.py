@@ -64,7 +64,7 @@ class GeminiAPI:
    
 
 def main(sp):
-    api_key = "AIzaSyCimOOgJwHxrml6DJg7-oY8NkNKnWVRnog"
+    api_key = REPLACE_USER_API_KEY
     gemini = GeminiAPI(api_key)
     response = gemini.generate_text(n)
     print("Text Generation Response:", response)
